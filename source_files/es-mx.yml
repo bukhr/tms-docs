@@ -1,0 +1,34 @@
+---
+es-mx:
+  activerecord:
+    models:
+      postulante: Postulante
+    attributes:
+      postulante:
+        first_name: Nombre
+        last_name: Apellido Paterno
+        segundo_apellido: Apellido Materno
+        date_of_birth: Fecha de Nacimiento
+        email: Email
+        telefono: Teléfono
+        prioridad_alta: Prioridad Alta
+        descripcion: Descripción
+        busqueda: Búsqueda
+        picture_url: Foto
+        direccion: Dirección
+        region: Estado
+        comuna: Municipio
+        location: Estado-Municipio
+        location_id: Ubicación
+        etapa_proceso_ids: Procesos
+        cv_url: CV
+        diploma_url: Diplomas
+        test_ingles_url: Test de Inglés
+        antecedentes_url: Otros Antecedentes
+        comments: Comentarios
+        codigo_pais: País de nacimiento
+        document_type: Tipo de Documento
+        application_salary_expectation: Expectativa salarial
+        linkedin: Linkedin
+        recomendador_rut: Recomendador RFC
+        recomendador_code: Código de Recomendador

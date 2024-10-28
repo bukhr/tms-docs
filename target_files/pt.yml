@@ -1,0 +1,110 @@
+---
+pt:
+  activerecord:
+    models:
+      postulante:
+        one: Candidato
+        other: Candidatos
+    attributes:
+      postulante:
+        first_name: Nome
+        last_name: Primeiro Sobrenome
+        segundo_apellido: Segundo Sobrenome
+        rut: "${activerecord.attributes.person.rut}"
+        date_of_birth: Data de Nascimento
+        email: E-mail
+        telefono: Telefone
+        prioridad_alta: Prioridade Alta
+        descripcion: Descrição
+        busqueda: Busca
+        picture_url: Foto
+        direccion: Endereço
+        region: Região
+        etapa_proceso_ids: Processos
+        cv_url: CV
+        diploma_url: Diplomas
+        test_ingles_url: Teste de inglês
+        linkedin: Linkedin
+        antecedentes_url: Outros Antecedentes
+        comments: Comentários
+        codigo_pais: País
+        document_type: Tipo de Documento
+        application_salary_expectation: Pretensão salarial
+        university: Universidade
+        academic_title: Qualificação profissional
+        years_of_experience: Anos de experiência
+        educational_level: Nível de instrução
+        recomendado_por: Recomendado por
+        average_score: Pontuação Média
+        employee: "${custom_translations.models.employee.one}"
+        application_roles: Candidaturas
+        comuna: Comuna
+        location: Comuna
+        location_id: Localização
+        auth_token: Token
+        auth_token_count: Número de Tokens
+        auth_token_expiration: Expiração do Token
+        celular: Celular
+        ciudad: Cidade
+        disponible: Disponível
+        procesos_seleccion_contratado: Processos Seleção Contratado
+        sexo: Sexo
+        status: Estado
+        recomendador_code: Código de Recomendador
+        document_number: Número de Documento
+      postulante/brasil:
+        document_type_list:
+          ci_brasil: CPF
+          otro: Outro
+        region: Estado
+        comuna: Município
+        location: Estado/Municipio
+      postulante/chile:
+        document_type_list:
+          rut: RUT
+          otro: Outro
+      postulante/colombia:
+        rut: Número de Documento
+        region: Departamento
+        location: Município
+        location_id: Localização
+        document_type_list:
+          cc: Cédula de Ciudadanía
+          ce: Cédula de Extranjería
+          ti: Tarjeta de Identidad
+          pa: Pasaporte
+          cd: Carné Diplomático
+          sc: Salvoconducto de Permanencia
+          rc: Registro Civil
+          pe: Permiso Especial de Permanencia
+          pt: Permiso por Proteccion Temporal
+          otro: Outro
+      postulante/peru:
+        rut: "${activerecord.attributes.person.rut}"
+        region: Departamento
+        comuna: Distrito
+        location: Distrito
+        location_id: Localização
+        document_type_list:
+          dni: DNI
+          carnet_extranjeria: Carnet de Extranjería
+          pasaporte_peru: Pasaporte
+          ptp_peru: Permiso Temporal de Permanencia
+          cpp: Carné de Permiso Temporal de Permanencia
+          otro: Outro
+      postulante/mexico:
+        last_name: Sobrenome Paterno
+        segundo_apellido: Sobrenome Materno
+        rut: "${activerecord.attributes.person.rut}"
+        region: Estado
+        comuna: Município
+        location: Estado-Município
+        location_id: Localização
+        document_type_list:
+          ci_mexico: RFC
+          otro: Outro
+  models:
+    postulante:
+      la_foto_debe_pesar_menos_de_mb: A foto deve ter menos de 5 MB
+      buk_copilot: 'Buk Copilot: %{note_message}'
+      etapa: "%{note_process_stage_selecci} > Etapa %{note_process_stage_name} > %{msj}"
