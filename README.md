@@ -1,4 +1,4 @@
-# Translation Management System
+# Translation Process Integration Guide
 
 *Choose your language:*
 - [English Documentation](#english)
@@ -6,18 +6,22 @@
 
 ## English
 
-1. **Translation Process**
-   - [Workflow Documentation](./docs/workflows/README.en.md)
+### Overview
+This documentation describes our translation workflow and file specifications for Translation Management System (TMS) providers. You'll find detailed information about our process requirements and file formats.
 
-2. **Implementation Details**
-   - [File Structure Guide](./docs/files/README.en.md)
+1. **Translation Workflow**
+   - [Process Documentation](./docs/workflows/README.en.md)
+2. **File Specifications**
+   - [File Requirements](./docs/files/README.en.md)
 
 ## Español
 
-1. **Proceso de Traducción**
-   - [Documentación del Workflow](./docs/workflows/README.es.md)
+### Descripción General
+Esta documentación describe nuestro flujo de trabajo de traducción y especificaciones de archivos para proveedores de Sistemas de Gestión de Traducción (TMS). Encontrará información detallada sobre los requisitos de nuestro proceso y formatos de archivo.
 
-2. **Detalles de Implementación**
-   - [Guía de Estructura de Archivos](./docs/files/README.es.md)
+1. **Flujo de Traducción**
+   - [Documentación del Proceso](./docs/workflows/README.es.md)
+2. **Especificaciones de Archivos**
+   - [Requisitos de Archivos](./docs/files/README.es.md)
 
 ---
