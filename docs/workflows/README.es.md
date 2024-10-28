@@ -73,7 +73,7 @@ sequenceDiagram
 ```
 
 ## Notas Importantes
-- Los archivos fuente siempre están en español (es.yml)
+- Los archivos fuente siempre están en español (es.yml) o español variante país (es-mx.yml, es-cl.yml, etc.)
 - Las traducciones se realizan a inglés y portugués [EN-PT]
 - Cada fase está claramente delimitada y requiere aprobación antes de pasar a la siguiente
 - El proceso está automatizado a través de GitHub y el Sistema de Gestión de Traducciones

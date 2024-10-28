@@ -72,7 +72,7 @@ sequenceDiagram
 ```
 
 ## Important Notes
-- Source files are always in Spanish (es.yml)
+- Source files are always in Spanish (es.yml) or Spanish locale variants (es-mx.yml, es-cl.yml, etc.)
 - Translations are done to English and Portuguese [EN-PT]
 - Each phase is clearly delimited and requires approval before moving to the next one
 - The process is automated through GitHub and the Translation Management System
