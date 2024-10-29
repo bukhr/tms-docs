@@ -1,0 +1,34 @@
+---
+en-br:
+  activerecord:
+    models:
+      postulante: Applicant
+    attributes:
+      postulante:
+        first_name: Name
+        last_name: First Surname
+        segundo_apellido: Second Surname
+        date_of_birth: Date of Birth
+        email: Email
+        telefono: Phone
+        prioridad_alta: High Priority
+        descripcion: Description
+        busqueda: Search
+        picture_url: Photo
+        direccion: Address
+        region: Department
+        comuna: District
+        location: District
+        location_id: Location
+        etapa_proceso_ids: Processes
+        cv_url: CV
+        diploma_url: Diplomas
+        test_ingles_url: English Test
+        antecedentes_url: Other Background
+        comments: Comments
+        codigo_pais: Country
+        document_type: Type of Document
+        application_salary_expectation: Salary expectation
+        linkedin: Linkedin
+        recomendador_rut: 'Recomendador DNI:'
+        recomendador_code: Recommender Code
