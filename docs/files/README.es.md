@@ -10,6 +10,7 @@ El archivo principal por defecto es `es.yml` (Español estándar).
 
 Ejemplo:
 ```yml
+---
 es:
   activerecord:
     models:
@@ -41,6 +42,7 @@ es-pe.yml  (Español - Perú)
 
 Por ejemplo, `es-mx.yml` (Español - México):
 ```yml
+---
 es-mx:
   activerecord:
     models:
@@ -57,6 +59,7 @@ es-mx:
 
 Y `es-pe.yml` (Español - Perú):
 ```yml
+---
 es-pe:
   activerecord:
     models:
@@ -87,6 +90,7 @@ en-pe.yml   (Inglés - Perú)
 
 Ejemplo inglés estándar (`en.yml`):
 ```yml
+---
 en:
   activerecord:
     models:
@@ -107,6 +111,7 @@ en:
 
 Para la variante de Perú (`en-pe.yml`):
 ```yml
+---
 en-pe:
   activerecord:
     models:
@@ -138,6 +143,7 @@ pt-pe.yml   (Portugués - Perú)
 
 Ejemplo portugués estándar (`pt.yml`):
 ```yml
+---
 pt:
   activerecord:
     models:
@@ -158,6 +164,7 @@ pt:
 
 Ejemplo variante de México (`pt-mx.yml`):
 ```yml
+---
 pt-mx:
   activerecord:
     models:
