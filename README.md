@@ -7,21 +7,38 @@
 ## English
 
 ### Overview
-This documentation describes our translation workflow and file specifications for Translation Management System (TMS) providers. You'll find detailed information about our process requirements and file formats.
+This documentation provides detailed information about our translation process and technical specifications, including:
 
-1. **Translation Workflow**
-   - [Process Documentation](./docs/workflows/README.en.md)
-2. **File Specifications**
-   - [File Requirements](./docs/files/README.en.md)
+- Buk translation workflow
+- Incorporation of translations to the system
+- Technical specifications for TMS (Translation Management System) providers
+
+### Contents
+
+1. **Buk Translation Flow**
+  - [Full Process](./docs/workflows/README.en.md)
+  - [Incorporation phase of translations](./docs/workflows/steps/README.en.md)
+
+2. **Technical Specifications**
+  - [File Format Requirements](./docs/files/README.es.md)
 
 ## Español
 
-### Descripción General
-Esta documentación describe nuestro flujo de trabajo de traducción y especificaciones de archivos para proveedores de Sistemas de Gestión de Traducción (TMS). Encontrará información detallada sobre los requisitos de nuestro proceso y formatos de archivo.
 
-1. **Flujo de Traducción**
-   - [Documentación del Proceso](./docs/workflows/README.es.md)
-2. **Especificaciones de Archivos**
-   - [Requisitos de Archivos](./docs/files/README.es.md)
+### Descripción General
+Esta documentación contiene información detallada sobre nuestro proceso de traducción y especificaciones técnicas, incluyendo:
+
+- Flujo de trabajo de traducciones en Buk
+- Proceso de incorporación de traducciones al sistema
+- Especificaciones técnicas para proveedores TMS (Translation Management System)
+
+### Contenido
+
+1. **Flujo de Traducción Buk**
+  - [Proceso Completo](./docs/workflows/README.es.md)
+  - [Fase de Incorporación de Traducciones](./docs/workflows/steps/3/README.es.md)
+
+2. **Especificaciones Técnicas**
+  - [Requisitos de Formato y Archivos](./docs/files/README.es.md)
 
 ---
