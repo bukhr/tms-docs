@@ -72,6 +72,10 @@ es-pe:
         recomendador_rut: Recomendador DNI # Específico de Perú
 ```
 
+[Más ejemplos en:](/source_files_examples/)
+
+---
+
 ## Target Files
 Contiene los archivos generados por el Sistema de Gestión de Traducciones (TMS) para cada idioma objetivo.
 
@@ -180,5 +184,8 @@ pt-mx:
         comuna: Município
         location: Estado-Município
 ```
+[Más ejemplos en:](/target_files_examples/)
+
+---
 
 **Nota:** Cada archivo destino corresponde a una versión traducida de su archivo fuente, manteniendo las mismas variantes específicas por país pero en diferentes idiomas.
