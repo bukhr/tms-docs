@@ -13,7 +13,7 @@ El proceso de traducción sigue un flujo secuencial que involucra a diferentes a
 ## Fases del Proceso
 
 ### 1. Fase de Desarrollo Inicial
-- El Desarrollador A crea un Pull Request (PR) con los archivos fuente en español (es.yml)
+- El Desarrollador A crea un Pull Request (PR) con los [archivos fuente en español (es.yml)](/docs/files/README.es.md#source-files)
 - GitHub notifica al Desarrollador B sobre el nuevo PR
 - El Desarrollador B revisa y aprueba el PR
 - GitHub integra los cambios a la rama master
@@ -27,7 +27,7 @@ El proceso de traducción sigue un flujo secuencial que involucra a diferentes a
 - TMS crea un PR con las nuevas traducciones [EN-PT]
 
 ### 3. Fase de Desarrollo Final
-- GitHub notifica al Desarrollador A sobre el PR con las nuevas traducciones
+- GitHub notifica al Desarrollador A sobre el PR con las [nuevas traducciones](/docs/files/README.es.md#target-files)
 - El Desarrollador A revisa y aprueba el PR
 - GitHub integra las traducciones a la rama master
 

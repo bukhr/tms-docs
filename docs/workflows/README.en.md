@@ -13,7 +13,7 @@ The translation process follows a sequential flow involving different actors and
 ## Process Phases
 
 ### 1. Initial Development Phase
-- Developer A creates a Pull Request (PR) with source files in Spanish (es.yml)
+- Developer A creates a Pull Request (PR) with [source files in Spanish (es.yml)](/docs/files/README.en.md#source-files)
 - GitHub notifies Developer B about the new PR
 - Developer B reviews and approves the PR
 - GitHub merges PR into master branch
@@ -27,7 +27,7 @@ The translation process follows a sequential flow involving different actors and
 - TMS creates PR with new translations [EN-PT]
 
 ### 3. Final Development Phase
-- GitHub notifies Developer A about PR with new translations
+- GitHub notifies Developer A about PR with [new translations](/docs/files/README.en.md#target-files)
 - Developer A reviews and approves PR
 - GitHub merges translations PR into master branch
 
