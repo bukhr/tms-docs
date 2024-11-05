@@ -17,7 +17,7 @@ This documentation provides detailed information about our translation process a
 
 1. **Buk Translation Flow**
   - [Full Process](./docs/workflows/README.en.md)
-  - [Incorporation phase of translations](./docs/workflows/steps/README.en.md)
+  - [Incorporation phase of translations](./docs/workflows/steps/3/README.en.md)
 
 2. **Technical Specifications**
   - [File Format Requirements](./docs/files/README.es.md)
