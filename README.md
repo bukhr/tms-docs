@@ -20,7 +20,7 @@ This documentation provides detailed information about our translation process a
   - [Incorporation phase of translations](./docs/workflows/steps/3/README.en.md)
 
 2. **Technical Specifications**
-  - [File Format Requirements](./docs/files/README.es.md)
+  - [File Format Requirements](./docs/files/README.en.md)
 
 ## Español
 
