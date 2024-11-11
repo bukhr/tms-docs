@@ -22,7 +22,7 @@ The translation process follows a sequential flow involving different actors and
 - TMS retrieves new source files from GitHub
 - GitHub syncs source files with TMS
 - TMS notifies Translator about pending translations
-- Translator performs translations to English and Portuguese [EN-PT]
+- Translator performs translations to English and Portuguese Brazil [EN-PT]
 - Translator completes translation flow in TMS
 - TMS creates PR with new translations [EN-PT]
 
@@ -73,6 +73,6 @@ sequenceDiagram
 
 ## Important Notes
 - Source files are always in Spanish (es.yml) or Spanish locale variants (es-mx.yml, es-cl.yml, etc.)
-- Translations are done to English and Portuguese [EN-PT]
+- Translations are done to English and Portuguese Brazil [EN-PT]
 - Each phase is clearly delimited and requires approval before moving to the next one
 - The process is automated through GitHub and the Translation Management System
