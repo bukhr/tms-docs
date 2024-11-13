@@ -141,17 +141,21 @@ en-pe:
 ```
 
 ### Traducciones al Portugués
-**Importante:** En nuestro sistema, todos los archivos con prefijo `pt` contienen traducciones en portugués de Brasil, no portugués de Portugal. Esta distinción es crucial para el correcto manejo de traducciones por el TMS.
+**Nota Técnica:** Todos los archivos con prefijo `pt` implementan traducciones en portugués de Brasil. A pesar de que `pt` es el código estándar para portugués, en nuestro sistema representa específicamente portugués de Brasil, no portugués de Portugal. Esta especificación es crítica para:
+
+1. Precisión en la implementación del TMS
+2. Correcta interpretación de los códigos de idioma
+3. Estandarización del contenido regional
 
 El portugués sigue el mismo patrón de traducción que los otros idiomas, adaptando términos y estructura según el uso local:
 
 ```
-pt.yml      (Portugués de Brasil - base)
-pt-br.yml   (Portugués de Brasil - variante Brasil)
-pt-cl.yml   (Portugués de Brasil - variante Chile)
-pt-co.yml   (Portugués de Brasil - variante Colombia)
-pt-mx.yml   (Portugués de Brasil - variante México)
-pt-pe.yml   (Portugués de Brasil - variante Perú)
+pt.yml      (Portugués de Brasil - base) # A pesar del prefijo pt, contiene portugués de Brasil
+pt-br.yml   (Portugués de Brasil - variante Brasil) # Variante regional del portugués de Brasil
+pt-cl.yml   (Portugués de Brasil - variante Chile) # Variante regional del portugués de Brasil
+pt-co.yml   (Portugués de Brasil - variante Colombia) # Variante regional del portugués de Brasil
+pt-mx.yml   (Portugués de Brasil - variante México) # Variante regional del portugués de Brasil
+pt-pe.yml   (Portugués de Brasil - variante Perú) # Variante regional del portugués de Brasil
 ```
 
 Ejemplo portugués de Brasil base (`pt.yml`):
