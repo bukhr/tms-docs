@@ -1,11 +1,22 @@
 # Guía de Estructura de Archivos de Traducción
+
 Esta guía describe la organización interna y nomenclatura de los archivos de traducción utilizados en el proyecto. No debe confundirse con la estructura de directorios del proyecto en sí.
 
+## Estructura General de Archivos
+
+El sistema maneja dos tipos principales de archivos:
+1. **Source Files**: Archivos fuente gestionados por desarrolladores
+2. **Target Files**: Archivos generados por el Sistema de Gestión de Traducciones (TMS)
+
+### Convención de Nomenclatura
+
+Los archivos siguen este patrón:
+- `{código-idioma}.yml` - Versión estándar (ej: es.yml, en.yml)
+- `{código-idioma}-{país}.yml` - Variante regional (ej: es-mx.yml, en-br.yml)
+
 ## Source Files
-Son los archivos fuente gestionados por los desarrolladores (creación, edición, movimiento o eliminación de estos).
 
-### Archivo Base
-
+### Archivo Base (es.yml)
 El archivo principal por defecto es `es.yml` (Español estándar). 
 
 Ejemplo:
@@ -74,14 +85,11 @@ es-pe:
 
 [Más ejemplos en:](/source_files_examples/)
 
----
-
 ## Target Files
 Contiene los archivos generados por el Sistema de Gestión de Traducciones (TMS) para cada idioma objetivo.
 
 ### Traducciones al Inglés
 El inglés mantiene la misma estructura que los archivos fuente, adaptando las traducciones tanto para la versión estándar como para las variantes por país:
-
 
 ```
 en.yml      (Inglés estándar)
@@ -133,19 +141,20 @@ en-pe:
 ```
 
 ### Traducciones al Portugués
-El portugués sigue el mismo patrón de traducción, adaptando términos y estructura según el uso local del idioma:
+**Importante:** En nuestro sistema, todos los archivos con prefijo `pt` contienen traducciones en portugués de Brasil, no portugués de Portugal. Esta distinción es crucial para el correcto manejo de traducciones por el TMS.
 
+El portugués sigue el mismo patrón de traducción que los otros idiomas, adaptando términos y estructura según el uso local:
 
 ```
-pt.yml      (Portugués estándar)
-pt-br.yml   (Portugués - Brasil)
-pt-cl.yml   (Portugués - Chile)
-pt-co.yml   (Portugués - Colombia)
-pt-mx.yml   (Portugués - México)
-pt-pe.yml   (Portugués - Perú)
+pt.yml      (Portugués de Brasil - base)
+pt-br.yml   (Portugués de Brasil - variante Brasil)
+pt-cl.yml   (Portugués de Brasil - variante Chile)
+pt-co.yml   (Portugués de Brasil - variante Colombia)
+pt-mx.yml   (Portugués de Brasil - variante México)
+pt-pe.yml   (Portugués de Brasil - variante Perú)
 ```
 
-Ejemplo portugués estándar (`pt.yml`):
+Ejemplo portugués de Brasil base (`pt.yml`):
 ```yml
 ---
 pt:
@@ -184,6 +193,7 @@ pt-mx:
         comuna: Município
         location: Estado-Município
 ```
+
 [Más ejemplos en:](/target_files_examples/)
 
 ---
