@@ -1,6 +1,6 @@
 # Estructura de Archivos de Traducción
 
-Los [archivos fuente](https://github.com/bukhr/tms-docs/blob/main/docs/files/README.es.md#source-files) y [archivos de traducción](https://github.com/bukhr/tms-docs/blob/main/docs/files/README.es.md#target-files) se encuentran dentro de `packs/`, pueden estar en cualquier nivel dentro de `config/locales/`:
+Los [archivos fuente](/docs/files/README.es.md#source-files) y [archivos de traducción](/docs/files/README.es.md#target-files) se encuentran dentro de `packs/`, pueden estar en cualquier nivel dentro de `config/locales/`:
 
 ```
 packs/*/config/locales/
