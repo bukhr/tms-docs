@@ -1,5 +1,5 @@
-# Translation Files Structure
-The [source files](https://github.com/bukhr/tms-docs/blob/main/docs/files/README.en.md#source-files) and [target files](https://github.com/bukhr/tms-docs/blob/main/docs/files/README.en.md#target-files) are located inside `packs/`, they can be at any level within `config/locales/`:
+# Directory Structure for Language Files
+The [source files](/docs/files/README.en.md#source-files) and [target files](/docs/files/README.en.md#target-files) are located inside `packs/`, they can be at any level within `config/locales/`:
 
 ```
 packs/*/config/locales/
@@ -22,4 +22,4 @@ packs/*/config/locales/
 
 ## Important
 - Source and translation files can be at any depth level within the packs
-- For more details about the file pattern, check the [Translation Files Structure Guide](https://github.com/bukhr/tms-docs/blob/main/docs/files/README.es.md)
+- For more details about the file pattern, check the [Translation Files Structure Guide](/docs/files/README.en.md)
