@@ -1,4 +1,4 @@
-# Estructura de Archivos de Traducción
+# Estructura de Directorios para Archivos de Idiomas
 
 Los [archivos fuente](/docs/files/README.es.md#source-files) y [archivos de traducción](/docs/files/README.es.md#target-files) se encuentran dentro de `packs/`, pueden estar en cualquier nivel dentro de `config/locales/`:
 
