@@ -21,7 +21,7 @@ This documentation provides detailed information about our translation process a
 
 2. **Technical Specifications**
   - [File Format Requirements](./docs/files/README.en.md)
-  - TODO: Project Structure
+  - [Directory Structure for Language Files](./docs/folders/README.en.md)
 
 ## Español
 
@@ -41,6 +41,6 @@ Esta documentación contiene información detallada sobre nuestro proceso de tra
 
 2. **Especificaciones Técnicas**
   - [Requisitos de Formato y Archivos](./docs/files/README.es.md)
-  - TODO: Estructura del Proyecto
+  - [Estructura de Directorios para Archivos de Idiomas](./docs/folders/README.es.md)
 
 ---
