@@ -23,4 +23,4 @@ packs/*/config/locales/
 
 ## Importante
 - Las fuentes y traducciones pueden estar en cualquier nivel de profundidad dentro de los packs
-- Para más detalles sobre el patrón de los archivos consulta [Guía de Estructura de Archivos de Traducción](/docs/i18n/structure.md)
+- Para más detalles sobre el patrón de los archivos consulta [Guía de Estructura de Archivos de Traducción](/docs/files/README.es.md)
