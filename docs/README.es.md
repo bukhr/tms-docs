@@ -1,6 +1,6 @@
 # Estructura de Archivos de Traducción
 
-Los archivos de traducción (`.yml`) dentro de `packs/` pueden encontrarse en cualquier nivel dentro de `config/locales/`:
+Los [archivos fuente](https://github.com/bukhr/tms-docs/blob/main/docs/files/README.es.md#source-files) y [archivos de traducción](https://github.com/bukhr/tms-docs/blob/main/docs/files/README.es.md#target-files) se encuentran dentro de `packs/`, pueden estar en cualquier nivel dentro de `config/locales/`:
 
 ```
 packs/*/config/locales/
@@ -22,5 +22,5 @@ packs/*/config/locales/
 ```
 
 ## Importante
-- Las traducciones pueden estar en cualquier nivel de profundidad dentro de los packs
+- Las fuentes y traducciones pueden estar en cualquier nivel de profundidad dentro de los packs
 - Para más detalles sobre el patrón de los archivos consulta [Guía de Estructura de Archivos de Traducción](/docs/i18n/structure.md)
