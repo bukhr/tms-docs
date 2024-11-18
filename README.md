@@ -15,11 +15,11 @@ This documentation provides detailed information about our translation process a
 
 ### Contents
 
-1. **Buk Translation Flow**
+#### 1. **Buk Translation Flow**
   - [Full Process](./docs/workflows/README.en.md)
   - [Incorporation phase of translations](./docs/workflows/steps/3/README.en.md)
 
-2. **Technical Specifications**
+#### 2. **Technical Specifications**
   - [File Format Requirements](./docs/files/README.en.md)
   - [Directory Structure for Language Files](./docs/folders/README.en.md)
 
@@ -35,11 +35,11 @@ Esta documentación contiene información detallada sobre nuestro proceso de tra
 
 ### Contenido
 
-1. **Flujo de Traducción Buk**
+#### 1. **Flujo de Traducción Buk**
   - [Proceso Completo](./docs/workflows/README.es.md)
   - [Fase de Incorporación de Traducciones](./docs/workflows/steps/3/README.es.md)
 
-2. **Especificaciones Técnicas**
+#### 2. **Especificaciones Técnicas**
   - [Requisitos de Formato y Archivos](./docs/files/README.es.md)
   - [Estructura de Directorios para Archivos de Idiomas](./docs/folders/README.es.md)
 
